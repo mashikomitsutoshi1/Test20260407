@@ -14,5 +14,8 @@ public class PageChange extends HttpServlet {
 			HttpServletRequest request, HttpServletResponse response
 	) throws ServletException, IOException {
 		request.getRequestDispatcher("page2.jsp").forward(request, response);
+		
+		//ソースコード修正します
+		System.out.println("ソースコード修正");
 	}
 }
