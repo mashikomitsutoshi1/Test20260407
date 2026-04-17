@@ -16,6 +16,6 @@ public class PageChange extends HttpServlet {
 		request.getRequestDispatcher("page2.jsp").forward(request, response);
 		
 		//ソースコード修正します
-		System.out.println("ソースコード修正の修正");
+		System.out.println("ソースコード修正の修正競合発生");
 	}
 }
